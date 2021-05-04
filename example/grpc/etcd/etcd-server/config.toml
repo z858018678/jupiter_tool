@@ -1,0 +1,7 @@
+[jupiter.server.grpc]
+    port = 9091
+
+[jupiter.registry.wh]
+    connectTimeout = "1m"
+    endpoints=["127.0.0.1:12379"]
+    secure = false
